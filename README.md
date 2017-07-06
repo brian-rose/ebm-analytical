@@ -11,3 +11,14 @@ All the source code used to generate these datasets is included.
 The module `ebm_analytical.py` contains all the code to implement the special-functions solution of the non-dimensional EBM as described in the paper.
 
 The code is freely available under the MIT license.
+
+### Dependencies
+
+- `python 2.7`
+- `numpy`
+- `scipy`
+- `mpmath` (for complex special functions in the analytical model)
+- `climlab` (for insolation and implementation of the seasonal EBM)
+- `ipyparallel` (for parallelization of the seasonal model parameter sweep on a compute cluster)
+
+Note `ipyparallel` is only needed to reproduce the laborious numerical parameter sweep of the seasonal model. The figures notebook reproduces Figures 9 and 10 of the paper from pre-computed data without this requirement.
