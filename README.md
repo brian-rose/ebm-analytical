@@ -4,6 +4,8 @@
 
 ### [Brian E. J. Rose](http://www.atmos.albany.edu/facstaff/brose/index.html), Department of Atmospheric and Environmental Sciences, University at Albany
 
+[![DOI](https://zenodo.org/badge/96465145.svg)](https://zenodo.org/badge/latestdoi/96465145)
+
 The included Jupyter notebook `Ice Caps and Ice Belts -- figures.ipynb` reproduces all figures in the paper. 
 Some of the figures are plotted from pre-computed datasets (included in this repository). 
 All the source code used to generate these datasets is included.
